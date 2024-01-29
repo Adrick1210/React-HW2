@@ -1,0 +1,30 @@
+img {
+  height: 400px;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.movie {
+  height: 650px;
+  width: 450px;
+  border-radius: 5px;
+  background-color: rgb(235, 234, 234);
+  margin: 0 auto;
+  margin-bottom: 10px;
+  box-shadow: 10px 10px 15px  black;
+}
+
+.movies {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+body {
+  background-image: url("https://wallpapers.com/images/featured/movie-theater-background-iy19ym07i0rx77gp.jpg");
+  background-repeat: no-repeat;
+  background-size: 2000px 1000px;
+  background-attachment: fixed;
+}

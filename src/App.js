@@ -42,8 +42,7 @@ function App() {
   ]
   return (
     <div className="App">
-      
-        
+      <Movies movies={movies}/>
     </div>
   );
 }
